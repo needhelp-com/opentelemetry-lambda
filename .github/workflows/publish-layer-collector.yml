@@ -47,6 +47,7 @@ on:
         description: 'Build tags to customize collector build'
         required: false
         type: string
+        default: 'lambdacomponents.custom,lambdacomponents.receiver.all,lambdacomponents.processor.all,lambdacomponents.exporter.datadog,lambdacomponents.connector.datadog,lambdacomponents.connector.spanmetrics'
 
 permissions:
   contents: read
